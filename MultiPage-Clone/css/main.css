@@ -1,3 +1,243 @@
 /* Add your CSS here */
 
 /* Dont' forget to link this file to your HTML in the <head> */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --Questrial-font: "Questrial";
+  --Raleway-font: "Raleway";
+  --Roboto-font: "Roboto";
+
+  /* Colors */
+  --Black: #000;
+  --White: #fff;
+  --Lylac: #f5e8ff;
+  --Light-Green: #e6fac0;
+  --Medium-Green: #5e7d1f;
+  --Dark-Green: #394b2a;
+
+  /* Layout design */
+  --Mobile-layout: ;
+}
+
+body {
+  font-family: var(--Roboto-font);
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 84px 70px 600px 1030px 1050px;
+  background-color: aqua;
+}
+/* header section style */
+header {
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+/* nave style section */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+nav svg {
+  height: 67px;
+}
+nav h1 {
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+/* main section style */
+
+main {
+  background-color: palevioletred;
+  display: grid;
+  grid-template-rows: 353px 188px 100px;
+}
+main img {
+  width: 100%;
+}
+.main-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+main p {
+  font-size: 4rem;
+  margin-top: 2rem;
+  /* padding: 3rem; */
+}
+main h1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+main button {
+  padding: 19px 58px;
+  border: solid 2px black;
+  font-size: 17px;
+  background: white;
+  font-family: serif;
+  font-weight: initial;
+}
+
+.content2 {
+  background-color: var(--Lylac);
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+.content2 h1 {
+  font-size: 18px;
+}
+
+/* article style */
+article {
+  background-color: orange;
+  display: grid;
+  grid-template-rows: 130px 300px 300px 300px;
+}
+article p {
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+.article-title {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* article component style section */
+.component-1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+.component-1 h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.component-1 h2 {
+  font-size: 2.1rem;
+  font-family: serif;
+  font-weight: 100;
+  color: #000;
+}
+/* component 2 */
+.component-2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.component-2 h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.component-2 h2 {
+  font-size: 2.1rem;
+  font-family: serif;
+  font-weight: 100;
+  color: #000;
+}
+
+/* component 3 */
+.component-3 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+.component-3 h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.component-3 h2 {
+  font-size: 2.1rem;
+  font-family: serif;
+  font-weight: 100;
+  color: #000;
+}
+
+/* section style */
+section {
+  background-color: greenyellow;
+  display: grid;
+  grid-template-rows: 530px 496px;
+}
+.image-section {
+  background-color: #e6fac0;
+}
+section img {
+  height: 100%;
+  padding: 3rem;
+}
+.image-content {
+  background-color: #e6fac0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+section h2 {
+  line-height: 1.3em;
+  font-size: 32px;
+}
+section p {
+  line-height: 1.8em;
+  font-size: 19px;
+  font-family: serif;
+  font-weight: lighter;
+}
+section button {
+  padding: 19px 58px;
+  border: solid 2px black;
+  font-size: 17px;
+  background: var(--Light-Green);
+  font-family: serif;
+  font-weight: initial;
+}
