@@ -36,7 +36,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 84px 70px 600px 1030px 1050px;
+  grid-template-rows: 8rem 7rem 60rem 103rem 406rem;
   background-color: aqua;
 }
 /* header section style */
@@ -61,6 +61,7 @@ nav {
 nav svg {
   height: 67px;
 }
+
 nav h1 {
   font-size: 27px;
   font-family: sans-serif;
@@ -118,7 +119,7 @@ main button {
 
 /* article style */
 article {
-  background-color: orange;
+  background-color: white;
   display: grid;
   grid-template-rows: 130px 300px 300px 300px;
 }
@@ -127,14 +128,14 @@ article p {
   font-family: sans-serif;
 }
 .article-title {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* article component style section */
 .component-1 {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +157,7 @@ article p {
 }
 /* component 2 */
 .component-2 {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,7 +181,7 @@ article p {
 
 /* component 3 */
 .component-3 {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -203,9 +204,9 @@ article p {
 
 /* section style */
 section {
-  background-color: greenyellow;
+  background-color: var(--Lylac);
   display: grid;
-  grid-template-rows: 530px 496px;
+  grid-template-rows: 50rem 54rem 17rem 61rem 61rem 71rem 89rem;
 }
 .image-section {
   background-color: #e6fac0;
@@ -234,10 +235,158 @@ section p {
   font-weight: lighter;
 }
 section button {
-  padding: 19px 58px;
+  padding: 24px 100px;
   border: solid 2px black;
   font-size: 17px;
   background: var(--Light-Green);
   font-family: serif;
   font-weight: initial;
+}
+
+/* component part 2 */
+.section-component1 {
+  background-color: #f5e8ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.section-component1 h1 {
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+/* component 2 */
+.section-component2 {
+  /* background-color: red; */
+  display: grid;
+  grid-template-rows: 40rem;
+}
+.section-component2 img {
+  width: 100%;
+  padding: 3rem;
+}
+
+.component2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.component2-content h1 {
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  font-weight: unset;
+}
+.component2-content p {
+  line-height: 2.7rem;
+  font-size: 2.1rem;
+}
+
+/* component e style section */
+
+.section-component3 {
+  /* background-color: blue; */
+  display: grid;
+  grid-template-rows: 40rem;
+}
+.section-component2 img {
+  width: 100%;
+  padding: 3rem;
+}
+
+.component3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.component3-content h1 {
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  font-weight: unset;
+}
+.component3-content p {
+  line-height: 2.7rem;
+  font-size: 2.1rem;
+}
+
+/* component 4 style section */
+
+.section-component4 {
+  /* background-color: chocolate; */
+  display: grid;
+  grid-template-rows: 40rem;
+}
+.section-component3 img {
+  width: 100%;
+  padding: 3rem;
+}
+
+.component4-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.component4-content h1 {
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  font-weight: unset;
+}
+.component4-content p {
+  line-height: 2.7rem;
+  font-size: 2.1rem;
+}
+.component4-content button {
+  padding: 24px 100px;
+  border: solid 2px black;
+  font-size: 17px;
+  background: var(--Lylac);
+  font-family: serif;
+  font-weight: initial;
+  margin-bottom: 2rem;
+}
+
+/* component 5 style section */
+
+.section-component5 {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 40rem;
+}
+.section-component5 img {
+  width: 100%;
+  padding: 3rem;
+}
+
+.component5-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.component5-content h1 {
+  font-size: 2.7rem;
+  font-family: sans-serif;
+  font-weight: unset;
+}
+.component5-content p {
+  line-height: 2.7rem;
+  font-size: 2.1rem;
+}
+.component5-content button {
+  padding: 24px 100px;
+  border: solid 2px black;
+  font-size: 17px;
+  background: white;
+  font-family: serif;
+  font-weight: initial;
+  margin-bottom: 2rem;
 }
