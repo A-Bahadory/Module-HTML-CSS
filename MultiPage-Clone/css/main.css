@@ -36,7 +36,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 8rem 7rem 60rem 103rem 406rem;
+  grid-template-rows: 8rem 7rem 60rem 103rem 402rem 130rem;
   background-color: aqua;
 }
 /* header section style */
@@ -389,4 +389,131 @@ section button {
   font-family: serif;
   font-weight: initial;
   margin-bottom: 2rem;
+}
+
+/* footer style section */
+footer {
+  background-color: chartreuse;
+  display: grid;
+  grid-template-rows: 10rem 30rem 30rem 30rem;
+}
+
+.footer-title {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 {
+  font-size: 4rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+/* component 1 style section */
+.footer-component1 {
+  background-color: var(--Light-Green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.footer-component1 h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+.footer-component1 p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 3.3rem;
+  color: #000;
+}
+
+.rounded-heading {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 78px;
+  font-family: monospace;
+  font-size: 4rem;
+}
+
+/* component 2 style section */
+
+.footer-component2 {
+  background-color: var(--Light-Green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.footer-component2 h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+.footer-component2 p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 3.3rem;
+  color: #000;
+}
+
+.rounded-heading {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 78px;
+  font-family: monospace;
+  font-size: 4rem;
+}
+
+/* component 3 style section */
+
+.footer-component3 {
+  background-color: var(--Light-Green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.footer-component3 h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+.footer-component3 p {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 3.3rem;
+  color: #000;
+}
+
+.rounded-heading {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 78px;
+  font-family: monospace;
+  font-size: 4rem;
 }
